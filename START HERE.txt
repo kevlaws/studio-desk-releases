@@ -1,0 +1,306 @@
+STUDIO DESK 1.0.0 — QUICK START
+Original RØDECaster Pro • Windows x64 • Optional RSS news
+
+WINDOWS ICON
+The app uses the neon red ON AIR sign in Explorer, the taskbar and window titles.
+Extract this release to its own folder and open StudioDesk.exe. Existing notes,
+jingles, settings and screen arrangements are kept in the same local profile.
+If a pinned shortcut still opens an older version, unpin that shortcut and pin
+this version's StudioDesk.exe. No administrator access or .NET install is needed.
+
+REMEMBERING YOUR SCREENS
+Choose a view and monitor for each window in Screens. Each window automatically
+remembers its view, monitor, normal size/position, full-screen, maximised and
+always-on-top settings. Use Quit Studio Desk in Screens, or close the main
+window, to save and close the entire app. The arrangement returns next launch.
+
+Closing an additional window also keeps its saved screen. Reopen it through
+Screens, or simply restart the app. Remove saved screen is the explicit option
+for forgetting a window. Minimising a window does not erase its saved placement.
+The Full screen checkboxes in Screens show each window's current setting.
+
+ONE STUDIO DASHBOARD ON EVERY MONITOR
+The regular Studio view now uses the same dashboard and toolbar in the main
+window and every additional window. It keeps the original arrangement: clock,
+ON AIR and timer above the channel strips, then jingles beside show notes, with
+stereo meters on the right. Moving windows or changing monitors only scales it.
+
+Every Studio toolbar includes Screens, Stop All, Demo, Sync desk, Full screen,
+News, Customise and Setup. Weather is in the connection bar. Clock selection,
+channel renaming, timer Set / Start / Reset, jingle Manage and the meter Source
+button are the same everywhere. The news ticker also has the same Pause,
+Refresh and Settings controls. Full screen acts on the window you are using.
+
+Use Screens to choose each window's view and monitor. The windows share one
+mixer connection, audio output, active bank, show timer, clock mode and notes.
+Channel names and visibility apply to all Studio windows. Each window remembers
+its own view, position, full-screen and always-on-top setting.
+
+Studio display remains the separate giant clock, ON AIR and weather view.
+Its toolbar hides only in full screen; Escape or F11 brings it back. Regular
+Studio keeps its setup toolbar visible in full screen.
+
+STUDIO DISPLAY WEATHER
+Studio display keeps the giant clock on the left. The right column is split
+equally: ON AIR at the top, with large weather conditions and forecast symbols
+below. It uses your existing weather location (Newcastle upon Tyne by default).
+Change the location through Weather or a Presenter panel's Location button.
+Weather unavailable/cached labels and the source credit remain visible.
+
+VISUAL WEATHER AND STUDIO DISPLAY
+Presenter weather uses the full card: a large condition symbol and temperature,
+plus three forecast tiles with symbols, daily highs/lows and descriptions.
+The symbols are original vector artwork and remain sharp on large screens.
+Unavailable or unknown weather is not assigned an invented sun/cloud symbol.
+The existing location, source attribution and cached-data labels are retained.
+
+Choose the fifth view, Studio display, for a giant clock and ON AIR lamp.
+It is available in the main view selector and in every additional screen window.
+Screens lets you assign it to any monitor. F11 enters a clean full-screen view
+with the clock, lamp and weather; Escape or F11 restores the toolbar. The display
+uses your shared Digital, Circular or Auto-switch clock preference.
+The lamp is red when a selected microphone is known live, grey otherwise.
+Sync needed and Mixer disconnected remain visible when required. Jingle keys
+are ignored in Studio display, which is intended as a passive studio screen.
+Your other windows, audio playback and shared mixer connection continue normally.
+
+VIEWS, WEATHER AND MULTIPLE MONITORS
+Choose Studio, Jingle board, Prep desk or Presenter from the top dropdown.
+Screens > Add display window opens another view. Choose its view and monitor,
+or drag the window to the screen you want. Use F11 for full screen in that
+window. Views, placement and always-on-top preferences survive restart.
+The main window closes the whole session; closing an additional window removes
+that window from the saved layout. Up to six additional windows are supported.
+All windows share ONE MIDI connection, jingle playback engine, active bank,
+show timer and notes. Switching views or closing an extra window does not stop
+jingles. STOP ALL is available in the working views; Studio display hides its
+toolbar in full screen. Keys 1-8 only act in an active working view and are
+suppressed in text boxes. Physical pad presses are handled once.
+
+Weather defaults to Newcastle upon Tyne. Click weather / Location to search
+for another city, hide weather or refresh. Current model conditions and a
+three-day forecast use Celsius, mph and UK time; they refresh every 15 minutes.
+Weather data is from Open-Meteo, with dated cached results if offline.
+
+Prep desk uses BBC UK news, BBC Tyne local news, Guardian music headlines,
+Digital Spy entertainment headlines, and Wikipedia events / notable birthdays.
+Today selects a few items from every category. + Notes appends the item's
+category, date, title and source URL to the shared, autosaved show notes.
+Click a prep headline or a scrolling ticker headline to open its article in
+your browser. Category badges still open the source homepage.
+News feeds use the publishers' publication dates when available. Wikipedia
+birthdays show birth years, never an assumed current age. Check linked source
+material before reading on air. Dated prep content rolls over at midnight.
+Prep fetches begin when you open Prep desk and refresh every 15 minutes during
+the session. Weather and prep require internet for updates; mixer, playback,
+notes and timers keep working offline. Failed sources do not block others.
+Presenter includes shared notes, clock, ON AIR, weather, show timer, time to
+the next hour, channels and stereo meters. Automatic current/next-track
+integration is deferred until your online playout system's API is available.
+
+COLOURFUL PADS AND ON AIR LAMP
+Jingle slots 1–8 are red, orange, yellow, green, cyan, blue, purple and pink,
+matching your RØDECaster photo. The same slot colours apply to every bank.
+A playing pad keeps its colour with a white outline and dark PLAYING badge.
+The large ON AIR lamp is red when microphones are known live, grey otherwise.
+OFF AIR is confirmed. The small Sync needed button means microphone status is
+unknown; click it for Sync desk, or hover to see which microphones need checking.
+Mixer disconnected means MIDI is unavailable; click it to open Setup.
+Grey alone does not establish that microphones are off. Demo is labelled.
+The decorative dots, repeated heading and always-visible footnote were removed
+The lamp's tooltip explains how its status follows the mixer.
+
+COPY YOUR EXISTING RØDECASTER BANKS
+In RØDE's Companion App, choose Save Show to create a .rcpshow backup.
+In Studio Desk, select Manage > Copy from RØDE Show and select that file.
+Review the banks, then Copy banks into Studio Desk. New banks are added; your
+existing app banks and all sounds/settings on the mixer stay intact.
+The same backup cannot be added twice. A new backup adds separate copies.
+Names, pad order and loop flags are copied; hardware bank switching is not synced.
+Use the dashboard's bank selector to choose the corresponding bank manually.
+
+Copied banks default to hardware-triggered app playback OFF. Your physical pads
+continue playing their original sounds on the mixer. Clicking the app pads or
+using keys 1–8 plays the PC copies through the selected USB output.
+To use physical pads to trigger PC copies instead, enable the per-bank option
+in Manage, match the bank manually and lower the mixer's SOUND PADS fader.
+Stop All stops app jingles only; it does not stop the mixer's own sounds.
+
+Some special pads may not have exported audio. These retain their name and slot
+with ON RØDECASTER ONLY; the !@#* pad in your backup is one such pad.
+Special hardware pad actions are not recreated in Studio Desk. Exported
+audio uses normal app play/stop behaviour; relevant pads show an explanatory note.
+The original Show backup is read-only throughout the copy process.
+
+CHANNEL LABELS AND COLOURS
+Click a channel card to rename it, then Save label. Enter saves; Escape cancels.
+Or open Customise to edit all eight labels, for example Presenter and Guest,
+and choose which channels to show. Labels are remembered after restarting.
+Red LIVE = known raised and unmuted. Yellow MUTED = confirmed mute active.
+Dark maroon OFF = known fader down, without a known active mute.
+Unsynced and disconnected channels keep explicit neutral status cards.
+Sound pads has no mute mapping: its raised fader is red and says FADER UP.
+Percentages and thin lines show fader positions, not measured audio levels.
+
+1. INSTALL OR EXTRACT AND OPEN
+Run StudioDesk-1.0.0-Setup-x64.exe to install for the current user. Setup adds a
+Start menu entry, offers a desktop shortcut and includes an uninstaller.
+Or extract the portable ZIP to a folder you want to keep and open StudioDesk.exe.
+No account, subscription, administrator installation or separate .NET runtime is needed.
+
+2. CONNECT YOUR RØDECASTER
+Power it on and connect USB. On the RØDECaster, enable:
+Settings > Advanced > Audio > Operations > MIDI Control.
+Open Setup in Studio Desk. Select RODECaster Pro MIDI and Connect / resync.
+If another program owns the MIDI port, close its MIDI connection and retry.
+
+3. VERIFY MAPPINGS ONCE (FIRST SETUP)
+In Setup, select which channels count as microphones (Mic 1–4 initially).
+Open Sync desk. All eight channels are here, including USB, Phone, Bluetooth
+and Sound pads, even if you have hidden them from the dashboard.
+For each channel whose mute mapping is unverified:
+- Click Learn mute on that channel's row.
+- Press that physical channel's MUTE button once.
+- Wait for Mute mapping saved, then match its physical MUTE light using Light ON/OFF.
+  The learning press changes the actual hardware mute state.
+Mic 1 and all eight fader/pad defaults were observed on the development test desk.
+Verify these on your own device; use Learn if a control does not match.
+Learn fader / Learn pad are available for correcting mappings if necessary.
+Mappings are saved. You do not need to relearn them every time you start.
+Learning one control preserves the other channels' states.
+The Sound pads row is fader-only. Its eight separate button triggers are below,
+with press counts so you can test them here. The app does not play jingles from
+hardware pad presses while this window is open; the mixer's own sounds can play.
+
+4. CONFIRM CURRENT STATE (AFTER START / USB RECONNECTION)
+The original model reports a mute press/release, not the resulting on/off state.
+It cannot tell this app whether controls changed while the app was closed.
+Previous known values are saved as references, separately from live state.
+Open Sync desk and compare the Previous column with the physical controls.
+If they still match, click "Previous values still match · confirm now" once.
+This fills compatible unknown values only; fresh readings are kept.
+If they differ, move the relevant faders and match each physical MUTE light with
+Light ON / Light OFF. Do this once initially to establish the saved references.
+
+The confirmation button is disabled if offline, in demo, or no saved values apply.
+Do not guess a mute state. Sync needed means the status is unknown.
+The red ON AIR light means at least one selected mic is known raised and unmuted.
+OFF AIR means all selected mics are known down or muted.
+This describes mixer controls, not whether your station is broadcasting.
+Use ordinary main-mix mode; producer/talkback and pre-fader recording are not tracked.
+Resync whenever a mute changes through the touchscreen, or whenever the display and hardware disagree.
+
+CUSTOMISE YOUR DASHBOARD
+Click Customise to hide unused channels. The remaining cards compact into fewer
+rows and the jingle/notes area expands. "Include in ON AIR" is separate from
+visibility: hidden microphones can still keep the ON AIR light on.
+Click the small clock button to choose Digital, Circular or Auto-switch.
+Digital and Circular stay fixed. Auto-switch starts with Circular and changes
+views every 15 seconds; the button shows the next view and seconds remaining.
+The former Alternate setting is now called Auto-switch; saved choices migrate.
+You can hide the headphone panel or stereo meters to reclaim their space.
+Hiding the headphones expands ON AIR into that space with larger lettering.
+
+STEREO AUDIO METERS
+The right-hand meters show actual input sample peaks, not MIDI fader positions.
+By default, the app selects the connected RODECaster Stereo recording input.
+In Customise, select your input and Start selected meter. Hover the meter panel
+to see its source name. USB routing / mix-minus affects which sounds reach it.
+The white line holds a peak briefly; green/yellow/red segments show dBFS level.
+No audio is written to disk and no input is fed back to the speakers.
+If the input disappears, the meters clear. Reconnect and restart the selected
+meter in Customise. They never switch to another microphone automatically.
+
+HEADPHONE GAUGES
+The four circular gauges are prepared for MIDI headphone knob positions.
+Their real mappings on the original RODECaster remain UNVERIFIED. A dash means
+unknown, not zero. To test support, click Learn knob in Customise and turn only
+that physical knob gradually. Learning requires changing CC values and rejects
+signals already assigned to other controls. If no usable MIDI arrives within
+30 seconds, the gauge remains unknown. The app cannot read an analog knob that
+does not send MIDI. Do not confuse these rings with the stereo audio peak meter.
+
+5. SET UP JINGLE AUDIO
+In Setup, choose the RØDECaster USB / Stereo playback output and click Arm selected output.
+The USB fader controls sounds played from the computer.
+Keep the hardware SOUND PADS fader down when using its pads to trigger app jingles.
+This prevents also hearing the RØDECaster's own stored pad sounds.
+Save and close Setup. Verify the route at a comfortable monitoring level before a show.
+An unplugged/failed audio output stops all jingles. Re-arm it explicitly in Setup.
+The app will never silently move playback to another Windows device.
+
+6. IMPORT AND PLAY
+Click an empty pad to import a mono/stereo WAV or MP3. Files are copied into the app library.
+Give the pad a name, choose one-shot or loop and set its volume, then Save jingle.
+Click a loaded pad to play; click again to stop with a short fade.
+Keys 1–8 trigger the selected bank. Physical pads do so only when the bank's
+hardware-trigger option in Manage is enabled (off for copied RØDE banks).
+Typing in show notes does not trigger keyboard jingles. Keyboard controls work while Studio Desk is focused.
+Right-click a pad to edit. Manage creates or renames banks.
+Changing bank leaves already playing sounds running; STOP ALL stops every bank.
+Hardware bank changes do not select a Studio Desk bank.
+Hardware triggers are suppressed while a setup or editing dialog is open.
+
+7. CLOCK, TIMER AND DISPLAY
+The clock follows the PC's local time. Set the Windows time zone correctly.
+Set chooses Countdown or Stopwatch.
+Countdown has separate HOURS, MINUTES and SECONDS fields. Hours: 00–99;
+minutes and seconds: 00–59. The minimum countdown is one second.
+Stopwatch starts at 00:00:00 and counts upwards in hours, minutes and seconds.
+Both use total hours, so a stopwatch does not wrap back to zero after 24 hours.
+Apply and reset pauses the timer. Start / Pause / Reset controls it on the dashboard.
+The mode and countdown duration are remembered, but running progress is not
+restored after closing the app. Cancel leaves the current timer unchanged.
+Countdowns show overtime visually; they do not play an alarm.
+F11 toggles full screen. Escape leaves full screen.
+Ctrl+Space stops all jingles when you are not typing in a text field.
+Setup selects the monitor, station name and optional always-on-top mode.
+Window placement, banks and notes are remembered.
+
+8. DEMO AND TROUBLESHOOTING
+Demo lets you inspect the dashboard with the RØDECaster switched off.
+The amber DEMO banner clearly distinguishes simulation; audio is disabled.
+Exit demo to return to live input, open Sync desk, then re-arm audio in Setup.
+Setup > MIDI diagnostics shows the last 400 received messages and exports a text log.
+No MIDI events? Check the USB cable, MIDI Control setting, selected port and other MIDI apps.
+Missing sound? Check output armed, correct endpoint, USB fader, pad volume and file assignment.
+
+9. MULTIPLE NEWS FEEDS
+Open News or Settings on the ticker to add up to eight RSS / Atom feeds.
+Use the presets for BBC News, BBC North East and Digital Spy, or Custom feed.
+North East adds both Tyne and Tees, labelled LOCAL NEWS. Digital Spy is labelled
+ENTERTAINMENT. Edit any label and its colour; tick to enable, use the arrows to
+reorder, or Remove. Save and apply commits changes; Cancel discards edits.
+Your previous single-feed address and preferences are preserved on upgrade.
+Up to 12 stories per feed alternate between enabled sources, with duplicate
+headlines skipped. A label appears before each story, alongside source credit.
+Pause / Resume holds the text; hovering also pauses it temporarily. Refresh
+fetches all enabled sources independently. Click a badge to open its source.
+Refresh defaults to 10 minutes (adjustable 5–60); speed and visibility are saved.
+News uses the internet. MIDI, timers, notes and jingles still work offline.
+If one feed fails, the others continue. Cached stories show CACHED on their
+badge and their original fetch time on hover. News settings show each feed's
+status. A failed feed with no cache contributes no stories until it recovers.
+Hide the ticker in News settings to regain its space and stop feed requests.
+
+YOUR DATA
+%LOCALAPPDATA%\StudioDesk
+Back up this entire folder, including Library, to preserve your sounds and notes.
+previous-mixer.json contains historical references only, never automatic live state.
+The app stores no audio recordings. Enabled news, weather and show-prep features
+contact their online sources; core MIDI, local audio, timers and notes work offline.
+NewsCache holds separate offline copies per feed. The old news-cache.json is
+retained and used only for the matching single-feed migration.
+
+VERIFICATION NOTE
+Automated and software playback checks accompany this release. A final live RØDECaster
+check of mute mappings, audible USB routing and physical unplug/reconnect is still required.
+See VERIFICATION.txt for the exact completed checks and limitations.
+
+
+
+UNINSTALL / UPGRADE
+Close Studio Desk before running Setup again or uninstalling via Windows Installed
+apps. Your %LOCALAPPDATA%\StudioDesk profile, notes and jingles are preserved.
+The executable and installer are unsigned; Windows may show an unknown publisher.
+Downloads and SHA256 checksums: https://github.com/kevlaws/studio-desk-releases/releases
